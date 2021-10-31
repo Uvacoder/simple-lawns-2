@@ -1,0 +1,32 @@
+:root {
+  --bg-main: rgb(45, 71, 126);
+  --text-main: rgb(45, 71, 126);
+  --text-main-light: rgb(190, 202, 228);
+  --bg-sec: rgb(40, 182, 82);
+  --text-sec: rgb(40, 182, 82);
+  --white: #fff;
+}
+
+.bg-main {
+  background-color: var(--bg-main);
+  color: var(--white);
+}
+
+.bg-sec {
+  background-color: var(--bg-sec);
+  color: var(--white);
+}
+
+.text-main {
+  color: var(--text-main);
+}
+
+.text-main-light {
+  color: var(--text-main-light);
+}
+.text-sec {
+  color: var(--text-sec);
+}
+.telephone-container {
+  padding: 0.9rem 5rem;
+}

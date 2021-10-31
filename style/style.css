@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+.navbar-brand-custom {
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 12px;
+}
+
+.hero {
+  height: 85vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      to right,
+      rgb(45, 71, 126),
+      rgba(45, 71, 126, 0.212)
+    ),
+    url(../img/jonas-weckschmied--N_UwPdUs7E-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.hero-content {
+  color: #fff;
+  padding-top: 10%;
+  margin-left: 10%;
+}
+
+.hero-content h1 {
+  font-size: 4.209rem;
+}
+
+.hero-content p {
+  font-size: 1.333rem;
+}
+
+.service-container {
+  margin-top: 10%;
+}
+
+.services-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  background-color: var(--bg-main);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  height: 35rem;
+  width: 25rem;
+}
+
+.service-premium {
+  background-color: var(--bg-sec);
+  height: 43.75rem;
+  width: 31.25rem;
+}
+
+.our-location {
+  padding-top: 100px;
+}
+.location-section {
+  margin-top: 10%;
+  background-image: url(../img/gibbon-fitzgibbon-nHVXMK7D528-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
